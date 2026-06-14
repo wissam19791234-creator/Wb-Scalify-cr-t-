@@ -1,0 +1,1 @@
+export const SectionHeader=({kicker,title,subtitle}:{kicker?:string;title:string;subtitle:string})=><div className="mx-auto mb-12 max-w-3xl text-center"><p className="mb-3 text-sm font-bold uppercase tracking-[.3em] text-cyan">{kicker}</p><h2 className="text-3xl font-black tracking-tight md:text-5xl">{title}</h2><p className="mt-5 text-lg text-soft">{subtitle}</p></div>;
