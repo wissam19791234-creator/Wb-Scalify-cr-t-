@@ -1,0 +1,1 @@
+import {HTMLAttributes} from 'react';import clsx from 'clsx';export const GlassCard=({className,...p}:HTMLAttributes<HTMLDivElement>)=><div {...p} className={clsx('card-glass rounded-3xl p-6 safe-visible',className)}/>;

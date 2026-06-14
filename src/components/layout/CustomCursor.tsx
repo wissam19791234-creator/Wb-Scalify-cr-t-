@@ -1,0 +1,1 @@
+import {useMouseGlow} from '../../hooks/useMouseGlow';export const CustomCursor=()=>{const p=useMouseGlow();return <div className="pointer-events-none fixed inset-0 z-[5] hidden md:block" style={{background:`radial-gradient(circle at ${p.x}% ${p.y}%, rgba(77,226,255,.09), transparent 18%)`}}/>}

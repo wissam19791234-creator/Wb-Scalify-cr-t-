@@ -1,0 +1,1 @@
+import {useEffect,useState} from 'react';export const useMouseGlow=()=>{const [p,setP]=useState({x:50,y:50});useEffect(()=>{const f=(e:MouseEvent)=>setP({x:e.clientX/window.innerWidth*100,y:e.clientY/window.innerHeight*100});addEventListener('mousemove',f);return()=>removeEventListener('mousemove',f)},[]);return p};

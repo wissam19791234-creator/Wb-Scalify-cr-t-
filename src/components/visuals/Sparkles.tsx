@@ -1,0 +1,1 @@
+export const Sparkles=()=> <div className="relative inline-grid place-items-center"><span className="absolute h-28 w-28 animate-pulse rounded-full bg-cyan/10 blur-2xl"/><b className="relative text-2xl tracking-[.25em]">SCALIFY<span className="gradient-text">.</span></b></div>;
