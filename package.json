@@ -5,21 +5,24 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "clsx": "latest",
-    "framer-motion": "latest",
-    "gsap": "latest",
-    "lucide-react": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "latest",
-    "tailwind-merge": "latest",
-    "lenis": "latest"
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.18.1",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "tailwind-merge": "^2.6.0",
+    "lenis": "^1.3.4"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
-    "typescript": "latest",
-    "vite": "latest"
-  }
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6"
+  },
+  "type": "module"
 }
