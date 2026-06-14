@@ -1,0 +1,1 @@
+import {formatMoney} from '../../utils/formatMoney';export const AnimatedNumber=({value,money=true}:{value:number;money?:boolean})=><span>{money?formatMoney(value):Math.round(value).toLocaleString('fr-FR')}</span>;

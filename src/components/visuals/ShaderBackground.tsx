@@ -1,0 +1,1 @@
+export const ShaderBackground=()=> <div className="absolute inset-0 -z-10 grain"><div className="absolute left-[10%] top-[8%] h-72 w-72 rounded-full bg-cyan/15 blur-3xl"/><div className="absolute right-[6%] top-[20%] h-96 w-96 rounded-full bg-violet/20 blur-3xl"/><div className="absolute bottom-[5%] left-[35%] h-80 w-80 rounded-full bg-blue/10 blur-3xl"/></div>;
